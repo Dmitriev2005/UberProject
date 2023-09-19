@@ -6,7 +6,9 @@ plugins {
 android {
     namespace = "com.example.uberproject"
     compileSdk = 33
-
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.example.uberproject"
         minSdk = 24
