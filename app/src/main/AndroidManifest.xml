@@ -13,6 +13,18 @@
         android:theme="@style/Theme.UberProject"
         tools:targetApi="31">
         <activity
+            android:name=".HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Organisation"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicalExercieseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RentalAndBuyActivity"
+            android:exported="false" />
+        <activity
             android:name=".GeneralMenu"
             android:exported="false" />
         <activity
