@@ -28,7 +28,7 @@ class Organisation : AppCompatActivity() {
     fun loadFourthtOrg(view: View){
         startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=Отделение Общероссийской Общественной Организации Инвалидов ВОГ, г. Оренбург&z=15")))
     }
-    fun loadBackActivity(){
+    fun loadBackActivity(view: View){
         startActivity(Intent(this,GeneralMenu::class.java))
     }
 
